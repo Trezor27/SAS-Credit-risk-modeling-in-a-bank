@@ -372,4 +372,4 @@ client_birth_date_num card_id client_birth_date district_id status;
 run;
 
 
-
+/* komentarz testowy kontroli wersji */
