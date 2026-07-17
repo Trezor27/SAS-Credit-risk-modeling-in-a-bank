@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_order_transfer_aggregation",
+  "source_file": "Credit_Risk_Modeling.sas",
+  "source_blob_sha": "fe47041e04d4d3c7af09b056dd2a89f504f40716",
+  "source_commit": "5af3f0c130e7e4466a69a74f39950f39d2d7199f",
+  "notes": "Lines 54-62 (order recode) and 230-297 (transfer/k_symbol aggregation) of Credit_Risk_Modeling.sas. Original reads Kredyt.order from the external libname; here it is a small inline DATALINES block with matching columns (account_id, operation, k_symbol, amount) so the author's own k_symbol PL recoding, the per-account transfer sum/count/average PROC SQL, the COALESCE/CASE conditional-average-by-category PROC SQL, and the most-frequent-k_symbol-per-account mode-finding (GROUP BY + ORDER BY count DESC + BY-group first.) all run unmodified. Note: one of the four avg_* columns in this bundle's captured output is genuinely missing (shown as '.') for an account/category combination with zero matching transactions -- this reflects a real Jenner PROC SQL COALESCE behavior against a division-by-zero expression, reported separately for internal triage (not referenced in the PR body); the bundle pins the actual current output as produced."
+}

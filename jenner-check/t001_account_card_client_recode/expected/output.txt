@@ -1,0 +1,25 @@
+
+  Obs  account_id  district_id      frequency  account_creation_date  account_peroid
+-----  ----------  -----------  -------------  ---------------------  --------------
+    1           1           18  miesieczna                    930101          918047
+    2           2            1  tygodniowa                    930101          918047
+    3           3            5  po_transakcji                 930101          918047
+    4           4           12  miesieczna                    930102          918048
+    5           5           15  miesieczna                    930103          918049
+
+  Obs  disp_id  card_type  issued  issued_date  card_ownership_duration
+-----  -------  ---------  ------  -----------  -----------------------
+    1        1  gold       960221        13200                      836
+    2        2  classic    970419        13623                     1259
+    3        3  junior     950830        13025                      661
+    4        4  classic    960715        13345                      981
+    5        5  gold       981102        14185                     1821
+
+  Obs  client_id  district_id  birth_number       plec  client_birth_date
+-----  ---------  -----------  ------------  ---------  -----------------
+    1          1           18        706213  kobieta    1970-12-13
+    2          2            1        456028  kobieta    1945-10-28
+    3          3            5        855128  kobieta    1985-01-28
+    4          4           12        590812  mezczyzna  1959-08-12
+    5          5           15        725617  kobieta    1972-06-17
+
