@@ -1,0 +1,13 @@
+
+  Obs  account_id  overall_sum_of_transfers    avg_transfer  avg_skladka_ubezpieczenia  avg_rachunki_domowe  avg_leasing  avg_rata_kredytu
+-----  ----------  ------------------------  --------------  -------------------------  -------------------  -----------  ----------------
+    1           1                      2550           637.5                        500                  875          300                 .
+    2           2                      2430           607.5                          .                  410            .              1200
+    3           3                      1460  486.6666666667                        605                    .          250                 .
+
+  Obs  account_id  najczestsza_kategoria
+-----  ----------  ---------------------
+    1           1  rachunki_domowe
+    2           2  rachunki_domowe
+    3           3  skladka_ubezpieczenia
+

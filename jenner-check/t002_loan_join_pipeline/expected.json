@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-17T13:05:00Z",
+  "_captured_run_id": "r_253f6513cc784551b051274fc0c5d7d9",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Table aa created.",
+    "NOTE: Table aa altered.",
+    "NOTE: Table aac created.",
+    "NOTE: Wrote aaccs (3 rows, 28 columns).",
+    "NOTE: PROC PRINT completed: 3 observations printed, 28 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

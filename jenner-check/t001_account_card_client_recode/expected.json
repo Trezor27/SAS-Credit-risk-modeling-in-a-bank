@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-17T12:57:00Z",
+  "_captured_run_id": "r_beeac9ea5a5f4520911a00aaf1b8d71a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote account (5 rows, 5 columns).",
+    "NOTE: Wrote card (5 rows, 5 columns).",
+    "NOTE: Wrote client (5 rows, 5 columns).",
+    "NOTE: PROC PRINT completed: 5 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

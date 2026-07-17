@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_loan_join_pipeline",
+  "source_file": "Credit_Risk_Modeling.sas",
+  "source_blob_sha": "fe47041e04d4d3c7af09b056dd2a89f504f40716",
+  "source_commit": "5af3f0c130e7e4466a69a74f39950f39d2d7199f",
+  "notes": "Lines 1-139 of Credit_Risk_Modeling.sas: account/client recode plus the PROC SQL join chain (aa -> aac) and the aaccs DATA step deriving staz (account tenure) and wiek (client age at loan date). Original reads six of the pipeline's seven Berka source tables (account, client, disp, district, loan, trans) from an external absolute-path libname; here each is supplied as a small inline DATALINES block with matching keys (account_id/client_id/district_id linkage) so the author's own left-join structure, the disp type='OWNER' filter, the k_symbol/operation/type PL recoding, and the staz/wiek date arithmetic all run unmodified against 3 synthetic accounts. card join (aacc step) and the balance-lookback steps (aaccstt0-3) were left out of this bundle's scope to keep the mock dataset small; t001 covers the card recode separately."
+}

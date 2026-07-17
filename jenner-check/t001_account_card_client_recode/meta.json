@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_account_card_client_recode",
+  "source_file": "Credit_Risk_Modeling.sas",
+  "source_blob_sha": "fe47041e04d4d3c7af09b056dd2a89f504f40716",
+  "source_commit": "5af3f0c130e7e4466a69a74f39950f39d2d7199f",
+  "notes": "Lines 1-39 of Credit_Risk_Modeling.sas: the account/card/client recoding DATA steps from the author's Berka Czech-bank credit-risk pipeline (libname Kredyt). Original reads three of the pipeline's seven source tables from an external absolute path; here each is replaced with a small inline DATALINES block matching the same column shapes (account_id/district_id/frequency/date; disp_id/type/issued; client_id/district_id/birth_number) so the author's own recode logic (frequency PL translation, card_ownership_duration date math, birth_number sex+DOB decoding) runs unmodified. Mock card 'type' values changed from column-input ($6.) to plain list input ($) after discovering the original informat form tripped a Jenner parser gap noted separately for triage; this is a mock-data adjustment, not a change to the author's logic."
+}
